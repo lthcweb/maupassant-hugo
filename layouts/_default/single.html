@@ -27,7 +27,7 @@
         {{ partial "copyright" .}}
 
         {{ partial "related" . }}
-
+<!--
         <div class="post-meta meta-tags">
             {{ if and (isset .Params "tags") .Params.tags }}
             <ul class="clearfix">
@@ -39,6 +39,7 @@
             {{ i18n "tagsNone" }}
             {{ end }}
         </div>
+-->
     </article>
     {{ partial "comments" . }}
 </div>
